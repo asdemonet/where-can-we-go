@@ -1,0 +1,2342 @@
+[
+  {
+    "": 91,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 1786,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 125,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 1794,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 316,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 1805,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 487,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 1818,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 1809,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 1912,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 3975,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2046,
+    "DEST_AIRPORT_ID": 11298,
+    "DEST": "DFW",
+    "DEST_CITY_NAME": "Dallas/Fort Worth, TX",
+    "DISTANCE": 1061,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 6939,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2267,
+    "DEST_AIRPORT_ID": 14100,
+    "DEST": "PHL",
+    "DEST_CITY_NAME": "Philadelphia, PA",
+    "DISTANCE": 337,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 8202,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2343,
+    "DEST_AIRPORT_ID": 13303,
+    "DEST": "MIA",
+    "DEST_CITY_NAME": "Miami, FL",
+    "DISTANCE": 700,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 8205,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2344,
+    "DEST_AIRPORT_ID": 13930,
+    "DEST": "ORD",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 646,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 10236,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2472,
+    "DEST_AIRPORT_ID": 11298,
+    "DEST": "DFW",
+    "DEST_CITY_NAME": "Dallas/Fort Worth, TX",
+    "DISTANCE": 1061,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 10615,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2495,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 24058,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 527,
+    "DEST_AIRPORT_ID": 14869,
+    "DEST": "SLC",
+    "DEST_CITY_NAME": "Salt Lake City, UT",
+    "DISTANCE": 1823,
+    "DISTANCE_GROUP": 8
+  },
+  {
+    "": 24558,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1123,
+    "DEST_AIRPORT_ID": 14747,
+    "DEST": "SEA",
+    "DEST_CITY_NAME": "Seattle, WA",
+    "DISTANCE": 2354,
+    "DISTANCE_GROUP": 10
+  },
+  {
+    "": 24594,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1160,
+    "DEST_AIRPORT_ID": 12892,
+    "DEST": "LAX",
+    "DEST_CITY_NAME": "Los Angeles, CA",
+    "DISTANCE": 2239,
+    "DISTANCE_GROUP": 9
+  },
+  {
+    "": 25071,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1523,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 25115,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1557,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 25135,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1572,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 25143,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1578,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 25150,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1585,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 25184,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1613,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 25187,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1615,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 25190,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1618,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 25456,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 2021,
+    "DEST_AIRPORT_ID": 13487,
+    "DEST": "MSP",
+    "DEST_CITY_NAME": "Minneapolis, MN",
+    "DISTANCE": 980,
+    "DISTANCE_GROUP": 4
+  },
+  {
+    "": 25474,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 2034,
+    "DEST_AIRPORT_ID": 11433,
+    "DEST": "DTW",
+    "DEST_CITY_NAME": "Detroit, MI",
+    "DISTANCE": 501,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 25481,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 2040,
+    "DEST_AIRPORT_ID": 11433,
+    "DEST": "DTW",
+    "DEST_CITY_NAME": "Detroit, MI",
+    "DISTANCE": 501,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 25566,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 2293,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 29892,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 2318,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 30080,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 518,
+    "DEST_AIRPORT_ID": 14869,
+    "DEST": "SLC",
+    "DEST_CITY_NAME": "Salt Lake City, UT",
+    "DISTANCE": 1823,
+    "DISTANCE_GROUP": 8
+  },
+  {
+    "": 30350,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1041,
+    "DEST_AIRPORT_ID": 11433,
+    "DEST": "DTW",
+    "DEST_CITY_NAME": "Detroit, MI",
+    "DISTANCE": 501,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 31685,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 1016,
+    "DEST_AIRPORT_ID": 11433,
+    "DEST": "DTW",
+    "DEST_CITY_NAME": "Detroit, MI",
+    "DISTANCE": 501,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 38168,
+    "OP_UNIQUE_CARRIER": "NK",
+    "OP_CARRIER_FL_NUM": 498,
+    "DEST_AIRPORT_ID": 11697,
+    "DEST": "FLL",
+    "DEST_CITY_NAME": "Fort Lauderdale, FL",
+    "DISTANCE": 680,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 45866,
+    "OP_UNIQUE_CARRIER": "MQ",
+    "OP_CARRIER_FL_NUM": 3356,
+    "DEST_AIRPORT_ID": 11298,
+    "DEST": "DFW",
+    "DEST_CITY_NAME": "Dallas/Fort Worth, TX",
+    "DISTANCE": 1061,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 45941,
+    "OP_UNIQUE_CARRIER": "MQ",
+    "OP_CARRIER_FL_NUM": 3359,
+    "DEST_AIRPORT_ID": 11298,
+    "DEST": "DFW",
+    "DEST_CITY_NAME": "Dallas/Fort Worth, TX",
+    "DISTANCE": 1061,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 47058,
+    "OP_UNIQUE_CARRIER": "MQ",
+    "OP_CARRIER_FL_NUM": 3416,
+    "DEST_AIRPORT_ID": 13930,
+    "DEST": "ORD",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 646,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 48757,
+    "OP_UNIQUE_CARRIER": "MQ",
+    "OP_CARRIER_FL_NUM": 3532,
+    "DEST_AIRPORT_ID": 13930,
+    "DEST": "ORD",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 646,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 53902,
+    "OP_UNIQUE_CARRIER": "OH",
+    "OP_CARRIER_FL_NUM": 5047,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 56945,
+    "OP_UNIQUE_CARRIER": "OH",
+    "OP_CARRIER_FL_NUM": 5155,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 57616,
+    "OP_UNIQUE_CARRIER": "OH",
+    "OP_CARRIER_FL_NUM": 5182,
+    "DEST_AIRPORT_ID": 14100,
+    "DEST": "PHL",
+    "DEST_CITY_NAME": "Philadelphia, PA",
+    "DISTANCE": 337,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 58191,
+    "OP_UNIQUE_CARRIER": "OH",
+    "OP_CARRIER_FL_NUM": 5213,
+    "DEST_AIRPORT_ID": 14100,
+    "DEST": "PHL",
+    "DEST_CITY_NAME": "Philadelphia, PA",
+    "DISTANCE": 337,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 63437,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 4460,
+    "DEST_AIRPORT_ID": 13303,
+    "DEST": "MIA",
+    "DEST_CITY_NAME": "Miami, FL",
+    "DISTANCE": 700,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 63605,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 4504,
+    "DEST_AIRPORT_ID": 14100,
+    "DEST": "PHL",
+    "DEST_CITY_NAME": "Philadelphia, PA",
+    "DISTANCE": 337,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 67057,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 467,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 67058,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1324,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 67059,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 758,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 67060,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2496,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 67061,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 241,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 67062,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 337,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 67063,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1327,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 67064,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 398,
+    "DEST_AIRPORT_ID": 11292,
+    "DEST": "DEN",
+    "DEST_CITY_NAME": "Denver, CO",
+    "DISTANCE": 1436,
+    "DISTANCE_GROUP": 6
+  },
+  {
+    "": 67065,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1087,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 67066,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 807,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 67067,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1330,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 67068,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6869,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 67069,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 330,
+    "DEST_AIRPORT_ID": 14107,
+    "DEST": "PHX",
+    "DEST_CITY_NAME": "Phoenix, AZ",
+    "DISTANCE": 1891,
+    "DISTANCE_GROUP": 8
+  },
+  {
+    "": 67070,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2010,
+    "DEST_AIRPORT_ID": 15016,
+    "DEST": "STL",
+    "DEST_CITY_NAME": "St. Louis, MO",
+    "DISTANCE": 667,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 69540,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6630,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 69548,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6946,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 71417,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 43,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 71418,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3963,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 71419,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3417,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 71420,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3962,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 71421,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3014,
+    "DEST_AIRPORT_ID": 12889,
+    "DEST": "LAS",
+    "DEST_CITY_NAME": "Las Vegas, NV",
+    "DISTANCE": 2026,
+    "DISTANCE_GROUP": 9
+  },
+  {
+    "": 71422,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3969,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 71423,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2209,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 71424,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6963,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 71425,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3974,
+    "DEST_AIRPORT_ID": 14107,
+    "DEST": "PHX",
+    "DEST_CITY_NAME": "Phoenix, AZ",
+    "DISTANCE": 1891,
+    "DISTANCE_GROUP": 8
+  },
+  {
+    "": 72641,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2746,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 72642,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4743,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 72643,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3203,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 72644,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4223,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 72645,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2006,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 72646,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3995,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 72647,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4745,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 72648,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4686,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 72649,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3176,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 72650,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4619,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 72651,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6810,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 75006,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6321,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 77490,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6860,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 79870,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 802,
+    "DEST_AIRPORT_ID": 11298,
+    "DEST": "DFW",
+    "DEST_CITY_NAME": "Dallas/Fort Worth, TX",
+    "DISTANCE": 1061,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 82569,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 1088,
+    "DEST_AIRPORT_ID": 13303,
+    "DEST": "MIA",
+    "DEST_CITY_NAME": "Miami, FL",
+    "DISTANCE": 700,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 82987,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 1115,
+    "DEST_AIRPORT_ID": 14100,
+    "DEST": "PHL",
+    "DEST_CITY_NAME": "Philadelphia, PA",
+    "DISTANCE": 337,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 87538,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 1478,
+    "DEST_AIRPORT_ID": 11298,
+    "DEST": "DFW",
+    "DEST_CITY_NAME": "Dallas/Fort Worth, TX",
+    "DISTANCE": 1061,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 105141,
+    "OP_UNIQUE_CARRIER": "DL",
+    "OP_CARRIER_FL_NUM": 779,
+    "DEST_AIRPORT_ID": 14869,
+    "DEST": "SLC",
+    "DEST_CITY_NAME": "Salt Lake City, UT",
+    "DISTANCE": 1823,
+    "DISTANCE_GROUP": 8
+  },
+  {
+    "": 117498,
+    "OP_UNIQUE_CARRIER": "F9",
+    "OP_CARRIER_FL_NUM": 559,
+    "DEST_AIRPORT_ID": 11292,
+    "DEST": "DEN",
+    "DEST_CITY_NAME": "Denver, CO",
+    "DISTANCE": 1436,
+    "DISTANCE_GROUP": 6
+  },
+  {
+    "": 117834,
+    "OP_UNIQUE_CARRIER": "F9",
+    "OP_CARRIER_FL_NUM": 1193,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 117972,
+    "OP_UNIQUE_CARRIER": "F9",
+    "OP_CARRIER_FL_NUM": 1650,
+    "DEST_AIRPORT_ID": 14100,
+    "DEST": "PHL",
+    "DEST_CITY_NAME": "Philadelphia, PA",
+    "DISTANCE": 337,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 118113,
+    "OP_UNIQUE_CARRIER": "F9",
+    "OP_CARRIER_FL_NUM": 1191,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 119234,
+    "OP_UNIQUE_CARRIER": "F9",
+    "OP_CARRIER_FL_NUM": 102,
+    "DEST_AIRPORT_ID": 14843,
+    "DEST": "SJU",
+    "DEST_CITY_NAME": "San Juan, PR",
+    "DISTANCE": 1433,
+    "DISTANCE_GROUP": 6
+  },
+  {
+    "": 119584,
+    "OP_UNIQUE_CARRIER": "F9",
+    "OP_CARRIER_FL_NUM": 103,
+    "DEST_AIRPORT_ID": 14100,
+    "DEST": "PHL",
+    "DEST_CITY_NAME": "Philadelphia, PA",
+    "DISTANCE": 337,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 128687,
+    "OP_UNIQUE_CARRIER": "NK",
+    "OP_CARRIER_FL_NUM": 716,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 133131,
+    "OP_UNIQUE_CARRIER": "9E",
+    "OP_CARRIER_FL_NUM": 4856,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 133185,
+    "OP_UNIQUE_CARRIER": "9E",
+    "OP_CARRIER_FL_NUM": 4857,
+    "DEST_AIRPORT_ID": 11697,
+    "DEST": "FLL",
+    "DEST_CITY_NAME": "Fort Lauderdale, FL",
+    "DISTANCE": 680,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 133950,
+    "OP_UNIQUE_CARRIER": "9E",
+    "OP_CARRIER_FL_NUM": 4883,
+    "DEST_AIRPORT_ID": 15304,
+    "DEST": "TPA",
+    "DEST_CITY_NAME": "Tampa, FL",
+    "DISTANCE": 587,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 139190,
+    "OP_UNIQUE_CARRIER": "9E",
+    "OP_CARRIER_FL_NUM": 5047,
+    "DEST_AIRPORT_ID": 11433,
+    "DEST": "DTW",
+    "DEST_CITY_NAME": "Detroit, MI",
+    "DISTANCE": 501,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 141095,
+    "OP_UNIQUE_CARRIER": "9E",
+    "OP_CARRIER_FL_NUM": 5108,
+    "DEST_AIRPORT_ID": 12478,
+    "DEST": "JFK",
+    "DEST_CITY_NAME": "New York, NY",
+    "DISTANCE": 427,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 142401,
+    "OP_UNIQUE_CARRIER": "9E",
+    "OP_CARRIER_FL_NUM": 5150,
+    "DEST_AIRPORT_ID": 11433,
+    "DEST": "DTW",
+    "DEST_CITY_NAME": "Detroit, MI",
+    "DISTANCE": 501,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 143606,
+    "OP_UNIQUE_CARRIER": "UA",
+    "OP_CARRIER_FL_NUM": 1148,
+    "DEST_AIRPORT_ID": 13930,
+    "DEST": "ORD",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 646,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 143642,
+    "OP_UNIQUE_CARRIER": "UA",
+    "OP_CARRIER_FL_NUM": 866,
+    "DEST_AIRPORT_ID": 11292,
+    "DEST": "DEN",
+    "DEST_CITY_NAME": "Denver, CO",
+    "DISTANCE": 1436,
+    "DISTANCE_GROUP": 6
+  },
+  {
+    "": 143829,
+    "OP_UNIQUE_CARRIER": "UA",
+    "OP_CARRIER_FL_NUM": 472,
+    "DEST_AIRPORT_ID": 11618,
+    "DEST": "EWR",
+    "DEST_CITY_NAME": "Newark, NJ",
+    "DISTANCE": 416,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 144089,
+    "OP_UNIQUE_CARRIER": "UA",
+    "OP_CARRIER_FL_NUM": 2407,
+    "DEST_AIRPORT_ID": 11292,
+    "DEST": "DEN",
+    "DEST_CITY_NAME": "Denver, CO",
+    "DISTANCE": 1436,
+    "DISTANCE_GROUP": 6
+  },
+  {
+    "": 144229,
+    "OP_UNIQUE_CARRIER": "UA",
+    "OP_CARRIER_FL_NUM": 1991,
+    "DEST_AIRPORT_ID": 11618,
+    "DEST": "EWR",
+    "DEST_CITY_NAME": "Newark, NJ",
+    "DISTANCE": 416,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 148386,
+    "OP_UNIQUE_CARRIER": "UA",
+    "OP_CARRIER_FL_NUM": 2424,
+    "DEST_AIRPORT_ID": 12264,
+    "DEST": "IAD",
+    "DEST_CITY_NAME": "Washington, DC",
+    "DISTANCE": 224,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 149040,
+    "OP_UNIQUE_CARRIER": "UA",
+    "OP_CARRIER_FL_NUM": 404,
+    "DEST_AIRPORT_ID": 13930,
+    "DEST": "ORD",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 646,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 162436,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6398,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 162441,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6238,
+    "DEST_AIRPORT_ID": 11292,
+    "DEST": "DEN",
+    "DEST_CITY_NAME": "Denver, CO",
+    "DISTANCE": 1436,
+    "DISTANCE_GROUP": 6
+  },
+  {
+    "": 165094,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1237,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 165095,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1402,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 165096,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1450,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 165097,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1404,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 165098,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1896,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 165099,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2053,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 165100,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2202,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 165101,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1829,
+    "DEST_AIRPORT_ID": 11259,
+    "DEST": "DAL",
+    "DEST_CITY_NAME": "Dallas, TX",
+    "DISTANCE": 1052,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 165102,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1398,
+    "DEST_AIRPORT_ID": 11292,
+    "DEST": "DEN",
+    "DEST_CITY_NAME": "Denver, CO",
+    "DISTANCE": 1436,
+    "DISTANCE_GROUP": 6
+  },
+  {
+    "": 165103,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1420,
+    "DEST_AIRPORT_ID": 11697,
+    "DEST": "FLL",
+    "DEST_CITY_NAME": "Fort Lauderdale, FL",
+    "DISTANCE": 680,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 165104,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1873,
+    "DEST_AIRPORT_ID": 12191,
+    "DEST": "HOU",
+    "DEST_CITY_NAME": "Houston, TX",
+    "DISTANCE": 1050,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 165105,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1571,
+    "DEST_AIRPORT_ID": 12889,
+    "DEST": "LAS",
+    "DEST_CITY_NAME": "Las Vegas, NV",
+    "DISTANCE": 2026,
+    "DISTANCE_GROUP": 9
+  },
+  {
+    "": 165106,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4353,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 165107,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6945,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 165108,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 210,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 165110,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1621,
+    "DEST_AIRPORT_ID": 13495,
+    "DEST": "MSY",
+    "DEST_CITY_NAME": "New Orleans, LA",
+    "DISTANCE": 779,
+    "DISTANCE_GROUP": 4
+  },
+  {
+    "": 165111,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2050,
+    "DEST_AIRPORT_ID": 14107,
+    "DEST": "PHX",
+    "DEST_CITY_NAME": "Phoenix, AZ",
+    "DISTANCE": 1891,
+    "DISTANCE_GROUP": 8
+  },
+  {
+    "": 165112,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2366,
+    "DEST_AIRPORT_ID": 15016,
+    "DEST": "STL",
+    "DEST_CITY_NAME": "St. Louis, MO",
+    "DISTANCE": 667,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 165113,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6999,
+    "DEST_AIRPORT_ID": 15016,
+    "DEST": "STL",
+    "DEST_CITY_NAME": "St. Louis, MO",
+    "DISTANCE": 667,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 167949,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2605,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 167950,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4075,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 167951,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2140,
+    "DEST_AIRPORT_ID": 10423,
+    "DEST": "AUS",
+    "DEST_CITY_NAME": "Austin, TX",
+    "DISTANCE": 1162,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 167952,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1764,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 167953,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3891,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 167954,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4243,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 167955,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1215,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 167956,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2190,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 167957,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2464,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 167958,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4797,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 167959,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3608,
+    "DEST_AIRPORT_ID": 11259,
+    "DEST": "DAL",
+    "DEST_CITY_NAME": "Dallas, TX",
+    "DISTANCE": 1052,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 167960,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1613,
+    "DEST_AIRPORT_ID": 11292,
+    "DEST": "DEN",
+    "DEST_CITY_NAME": "Denver, CO",
+    "DISTANCE": 1436,
+    "DISTANCE_GROUP": 6
+  },
+  {
+    "": 167961,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1736,
+    "DEST_AIRPORT_ID": 11292,
+    "DEST": "DEN",
+    "DEST_CITY_NAME": "Denver, CO",
+    "DISTANCE": 1436,
+    "DISTANCE_GROUP": 6
+  },
+  {
+    "": 167962,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2797,
+    "DEST_AIRPORT_ID": 11697,
+    "DEST": "FLL",
+    "DEST_CITY_NAME": "Fort Lauderdale, FL",
+    "DISTANCE": 680,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 167963,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3576,
+    "DEST_AIRPORT_ID": 12191,
+    "DEST": "HOU",
+    "DEST_CITY_NAME": "Houston, TX",
+    "DISTANCE": 1050,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 167964,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1728,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 167966,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1633,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 167967,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1800,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 167968,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4795,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 167970,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1884,
+    "DEST_AIRPORT_ID": 13495,
+    "DEST": "MSY",
+    "DEST_CITY_NAME": "New Orleans, LA",
+    "DISTANCE": 779,
+    "DISTANCE_GROUP": 4
+  },
+  {
+    "": 167971,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2441,
+    "DEST_AIRPORT_ID": 14107,
+    "DEST": "PHX",
+    "DEST_CITY_NAME": "Phoenix, AZ",
+    "DISTANCE": 1891,
+    "DISTANCE_GROUP": 8
+  },
+  {
+    "": 167972,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4800,
+    "DEST_AIRPORT_ID": 15016,
+    "DEST": "STL",
+    "DEST_CITY_NAME": "St. Louis, MO",
+    "DISTANCE": 667,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 167973,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4829,
+    "DEST_AIRPORT_ID": 15016,
+    "DEST": "STL",
+    "DEST_CITY_NAME": "St. Louis, MO",
+    "DISTANCE": 667,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 167975,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 4510,
+    "DEST_AIRPORT_ID": 15304,
+    "DEST": "TPA",
+    "DEST_CITY_NAME": "Tampa, FL",
+    "DISTANCE": 587,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 170815,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6948,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 170819,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6838,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 170824,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6762,
+    "DEST_AIRPORT_ID": 15016,
+    "DEST": "STL",
+    "DEST_CITY_NAME": "St. Louis, MO",
+    "DISTANCE": 667,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 179246,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 259,
+    "DEST_AIRPORT_ID": 14107,
+    "DEST": "PHX",
+    "DEST_CITY_NAME": "Phoenix, AZ",
+    "DISTANCE": 1891,
+    "DISTANCE_GROUP": 8
+  },
+  {
+    "": 182278,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 508,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 184693,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 683,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 187071,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2605,
+    "DEST_AIRPORT_ID": 11298,
+    "DEST": "DFW",
+    "DEST_CITY_NAME": "Dallas/Fort Worth, TX",
+    "DISTANCE": 1061,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 187527,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2627,
+    "DEST_AIRPORT_ID": 11298,
+    "DEST": "DFW",
+    "DEST_CITY_NAME": "Dallas/Fort Worth, TX",
+    "DISTANCE": 1061,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 190688,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2846,
+    "DEST_AIRPORT_ID": 11298,
+    "DEST": "DFW",
+    "DEST_CITY_NAME": "Dallas/Fort Worth, TX",
+    "DISTANCE": 1061,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 190806,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2849,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 190843,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2850,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 190906,
+    "OP_UNIQUE_CARRIER": "AA",
+    "OP_CARRIER_FL_NUM": 2856,
+    "DEST_AIRPORT_ID": 11057,
+    "DEST": "CLT",
+    "DEST_CITY_NAME": "Charlotte, NC",
+    "DISTANCE": 130,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 215120,
+    "OP_UNIQUE_CARRIER": "G4",
+    "OP_CARRIER_FL_NUM": 1596,
+    "DEST_AIRPORT_ID": 14082,
+    "DEST": "PGD",
+    "DEST_CITY_NAME": "Punta Gorda, FL",
+    "DISTANCE": 645,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 215253,
+    "OP_UNIQUE_CARRIER": "G4",
+    "OP_CARRIER_FL_NUM": 1607,
+    "DEST_AIRPORT_ID": 14082,
+    "DEST": "PGD",
+    "DEST_CITY_NAME": "Punta Gorda, FL",
+    "DISTANCE": 645,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 215648,
+    "OP_UNIQUE_CARRIER": "G4",
+    "OP_CARRIER_FL_NUM": 1592,
+    "DEST_AIRPORT_ID": 14082,
+    "DEST": "PGD",
+    "DEST_CITY_NAME": "Punta Gorda, FL",
+    "DISTANCE": 645,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 216470,
+    "OP_UNIQUE_CARRIER": "G4",
+    "OP_CARRIER_FL_NUM": 2390,
+    "DEST_AIRPORT_ID": 14761,
+    "DEST": "SFB",
+    "DEST_CITY_NAME": "Sanford, FL",
+    "DISTANCE": 510,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 217624,
+    "OP_UNIQUE_CARRIER": "G4",
+    "OP_CARRIER_FL_NUM": 1687,
+    "DEST_AIRPORT_ID": 14082,
+    "DEST": "PGD",
+    "DEST_CITY_NAME": "Punta Gorda, FL",
+    "DISTANCE": 645,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 217942,
+    "OP_UNIQUE_CARRIER": "G4",
+    "OP_CARRIER_FL_NUM": 1593,
+    "DEST_AIRPORT_ID": 14082,
+    "DEST": "PGD",
+    "DEST_CITY_NAME": "Punta Gorda, FL",
+    "DISTANCE": 645,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 219088,
+    "OP_UNIQUE_CARRIER": "G4",
+    "OP_CARRIER_FL_NUM": 1591,
+    "DEST_AIRPORT_ID": 14082,
+    "DEST": "PGD",
+    "DEST_CITY_NAME": "Punta Gorda, FL",
+    "DISTANCE": 645,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 221479,
+    "OP_UNIQUE_CARRIER": "G4",
+    "OP_CARRIER_FL_NUM": 2389,
+    "DEST_AIRPORT_ID": 14761,
+    "DEST": "SFB",
+    "DEST_CITY_NAME": "Sanford, FL",
+    "DISTANCE": 510,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 223951,
+    "OP_UNIQUE_CARRIER": "YV",
+    "OP_CARRIER_FL_NUM": 6093,
+    "DEST_AIRPORT_ID": 12266,
+    "DEST": "IAH",
+    "DEST_CITY_NAME": "Houston, TX",
+    "DISTANCE": 1042,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 224036,
+    "OP_UNIQUE_CARRIER": "YV",
+    "OP_CARRIER_FL_NUM": 6048,
+    "DEST_AIRPORT_ID": 12266,
+    "DEST": "IAH",
+    "DEST_CITY_NAME": "Houston, TX",
+    "DISTANCE": 1042,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 224378,
+    "OP_UNIQUE_CARRIER": "YV",
+    "OP_CARRIER_FL_NUM": 6229,
+    "DEST_AIRPORT_ID": 12264,
+    "DEST": "IAD",
+    "DEST_CITY_NAME": "Washington, DC",
+    "DISTANCE": 224,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 225050,
+    "OP_UNIQUE_CARRIER": "YV",
+    "OP_CARRIER_FL_NUM": 6197,
+    "DEST_AIRPORT_ID": 12264,
+    "DEST": "IAD",
+    "DEST_CITY_NAME": "Washington, DC",
+    "DISTANCE": 224,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 232322,
+    "OP_UNIQUE_CARRIER": "9E",
+    "OP_CARRIER_FL_NUM": 4631,
+    "DEST_AIRPORT_ID": 12478,
+    "DEST": "JFK",
+    "DEST_CITY_NAME": "New York, NY",
+    "DISTANCE": 427,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 233269,
+    "OP_UNIQUE_CARRIER": "9E",
+    "OP_CARRIER_FL_NUM": 4659,
+    "DEST_AIRPORT_ID": 12478,
+    "DEST": "JFK",
+    "DEST_CITY_NAME": "New York, NY",
+    "DISTANCE": 427,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 235552,
+    "OP_UNIQUE_CARRIER": "9E",
+    "OP_CARRIER_FL_NUM": 4727,
+    "DEST_AIRPORT_ID": 13487,
+    "DEST": "MSP",
+    "DEST_CITY_NAME": "Minneapolis, MN",
+    "DISTANCE": 980,
+    "DISTANCE_GROUP": 4
+  },
+  {
+    "": 236115,
+    "OP_UNIQUE_CARRIER": "9E",
+    "OP_CARRIER_FL_NUM": 4745,
+    "DEST_AIRPORT_ID": 13487,
+    "DEST": "MSP",
+    "DEST_CITY_NAME": "Minneapolis, MN",
+    "DISTANCE": 980,
+    "DISTANCE_GROUP": 4
+  },
+  {
+    "": 239771,
+    "OP_UNIQUE_CARRIER": "UA",
+    "OP_CARRIER_FL_NUM": 1063,
+    "DEST_AIRPORT_ID": 12264,
+    "DEST": "IAD",
+    "DEST_CITY_NAME": "Washington, DC",
+    "DISTANCE": 224,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 239837,
+    "OP_UNIQUE_CARRIER": "UA",
+    "OP_CARRIER_FL_NUM": 755,
+    "DEST_AIRPORT_ID": 12266,
+    "DEST": "IAH",
+    "DEST_CITY_NAME": "Houston, TX",
+    "DISTANCE": 1042,
+    "DISTANCE_GROUP": 5
+  },
+  {
+    "": 239894,
+    "OP_UNIQUE_CARRIER": "UA",
+    "OP_CARRIER_FL_NUM": 678,
+    "DEST_AIRPORT_ID": 12264,
+    "DEST": "IAD",
+    "DEST_CITY_NAME": "Washington, DC",
+    "DISTANCE": 224,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 242435,
+    "OP_UNIQUE_CARRIER": "UA",
+    "OP_CARRIER_FL_NUM": 330,
+    "DEST_AIRPORT_ID": 11618,
+    "DEST": "EWR",
+    "DEST_CITY_NAME": "Newark, NJ",
+    "DISTANCE": 416,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 250225,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 3619,
+    "DEST_AIRPORT_ID": 13930,
+    "DEST": "ORD",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 646,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 250250,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 3716,
+    "DEST_AIRPORT_ID": 13930,
+    "DEST": "ORD",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 646,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 250343,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 3505,
+    "DEST_AIRPORT_ID": 11618,
+    "DEST": "EWR",
+    "DEST_CITY_NAME": "Newark, NJ",
+    "DISTANCE": 416,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 250353,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 3515,
+    "DEST_AIRPORT_ID": 12264,
+    "DEST": "IAD",
+    "DEST_CITY_NAME": "Washington, DC",
+    "DISTANCE": 224,
+    "DISTANCE_GROUP": 1
+  },
+  {
+    "": 251179,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 3614,
+    "DEST_AIRPORT_ID": 11618,
+    "DEST": "EWR",
+    "DEST_CITY_NAME": "Newark, NJ",
+    "DISTANCE": 416,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 255310,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2621,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 255311,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2627,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 255312,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 32,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 255313,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1919,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 255314,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2336,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 255315,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2414,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 255316,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2420,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 255317,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2415,
+    "DEST_AIRPORT_ID": 11292,
+    "DEST": "DEN",
+    "DEST_CITY_NAME": "Denver, CO",
+    "DISTANCE": 1436,
+    "DISTANCE_GROUP": 6
+  },
+  {
+    "": 255318,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2540,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 255319,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 2232,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 255320,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 3002,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 255321,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1174,
+    "DEST_AIRPORT_ID": 15016,
+    "DEST": "STL",
+    "DEST_CITY_NAME": "St. Louis, MO",
+    "DISTANCE": 667,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 261034,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 500,
+    "DEST_AIRPORT_ID": 10397,
+    "DEST": "ATL",
+    "DEST_CITY_NAME": "Atlanta, GA",
+    "DISTANCE": 356,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 261038,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 192,
+    "DEST_AIRPORT_ID": 10821,
+    "DEST": "BWI",
+    "DEST_CITY_NAME": "Baltimore, MD",
+    "DISTANCE": 255,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 261041,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 223,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 261042,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 1118,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 262788,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6095,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 264772,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6006,
+    "DEST_AIRPORT_ID": 10693,
+    "DEST": "BNA",
+    "DEST_CITY_NAME": "Nashville, TN",
+    "DISTANCE": 442,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 269678,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6840,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 276251,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6746,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 288259,
+    "OP_UNIQUE_CARRIER": "AS",
+    "OP_CARRIER_FL_NUM": 753,
+    "DEST_AIRPORT_ID": 14747,
+    "DEST": "SEA",
+    "DEST_CITY_NAME": "Seattle, WA",
+    "DISTANCE": 2354,
+    "DISTANCE_GROUP": 10
+  },
+  {
+    "": 318230,
+    "OP_UNIQUE_CARRIER": "MQ",
+    "OP_CARRIER_FL_NUM": 4060,
+    "DEST_AIRPORT_ID": 13930,
+    "DEST": "ORD",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 646,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 329049,
+    "OP_UNIQUE_CARRIER": "B6",
+    "OP_CARRIER_FL_NUM": 2184,
+    "DEST_AIRPORT_ID": 10721,
+    "DEST": "BOS",
+    "DEST_CITY_NAME": "Boston, MA",
+    "DISTANCE": 612,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 329073,
+    "OP_UNIQUE_CARRIER": "B6",
+    "OP_CARRIER_FL_NUM": 184,
+    "DEST_AIRPORT_ID": 10721,
+    "DEST": "BOS",
+    "DEST_CITY_NAME": "Boston, MA",
+    "DISTANCE": 612,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 329076,
+    "OP_UNIQUE_CARRIER": "B6",
+    "OP_CARRIER_FL_NUM": 86,
+    "DEST_AIRPORT_ID": 12478,
+    "DEST": "JFK",
+    "DEST_CITY_NAME": "New York, NY",
+    "DISTANCE": 427,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 329107,
+    "OP_UNIQUE_CARRIER": "B6",
+    "OP_CARRIER_FL_NUM": 1384,
+    "DEST_AIRPORT_ID": 10721,
+    "DEST": "BOS",
+    "DEST_CITY_NAME": "Boston, MA",
+    "DISTANCE": 612,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 331487,
+    "OP_UNIQUE_CARRIER": "B6",
+    "OP_CARRIER_FL_NUM": 2625,
+    "DEST_AIRPORT_ID": 11697,
+    "DEST": "FLL",
+    "DEST_CITY_NAME": "Fort Lauderdale, FL",
+    "DISTANCE": 680,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 332169,
+    "OP_UNIQUE_CARRIER": "B6",
+    "OP_CARRIER_FL_NUM": 555,
+    "DEST_AIRPORT_ID": 14635,
+    "DEST": "RSW",
+    "DEST_CITY_NAME": "Fort Myers, FL",
+    "DISTANCE": 667,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 332319,
+    "OP_UNIQUE_CARRIER": "B6",
+    "OP_CARRIER_FL_NUM": 1986,
+    "DEST_AIRPORT_ID": 12478,
+    "DEST": "JFK",
+    "DEST_CITY_NAME": "New York, NY",
+    "DISTANCE": 427,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 332636,
+    "OP_UNIQUE_CARRIER": "B6",
+    "OP_CARRIER_FL_NUM": 1063,
+    "DEST_AIRPORT_ID": 14843,
+    "DEST": "SJU",
+    "DEST_CITY_NAME": "San Juan, PR",
+    "DISTANCE": 1433,
+    "DISTANCE_GROUP": 6
+  },
+  {
+    "": 338237,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 4557,
+    "DEST_AIRPORT_ID": 13303,
+    "DEST": "MIA",
+    "DEST_CITY_NAME": "Miami, FL",
+    "DISTANCE": 700,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 338444,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 4569,
+    "DEST_AIRPORT_ID": 14100,
+    "DEST": "PHL",
+    "DEST_CITY_NAME": "Philadelphia, PA",
+    "DISTANCE": 337,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 339090,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 4617,
+    "DEST_AIRPORT_ID": 13303,
+    "DEST": "MIA",
+    "DEST_CITY_NAME": "Miami, FL",
+    "DISTANCE": 700,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 339303,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 4629,
+    "DEST_AIRPORT_ID": 13930,
+    "DEST": "ORD",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 646,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 340341,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 4690,
+    "DEST_AIRPORT_ID": 13303,
+    "DEST": "MIA",
+    "DEST_CITY_NAME": "Miami, FL",
+    "DISTANCE": 700,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 340343,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 4690,
+    "DEST_AIRPORT_ID": 14100,
+    "DEST": "PHL",
+    "DEST_CITY_NAME": "Philadelphia, PA",
+    "DISTANCE": 337,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 340722,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 4719,
+    "DEST_AIRPORT_ID": 13930,
+    "DEST": "ORD",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 646,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 340890,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 4725,
+    "DEST_AIRPORT_ID": 13930,
+    "DEST": "ORD",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 646,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 345035,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 5599,
+    "DEST_AIRPORT_ID": 10721,
+    "DEST": "BOS",
+    "DEST_CITY_NAME": "Boston, MA",
+    "DISTANCE": 612,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 345038,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 5604,
+    "DEST_AIRPORT_ID": 12478,
+    "DEST": "JFK",
+    "DEST_CITY_NAME": "New York, NY",
+    "DISTANCE": 427,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 345043,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 5613,
+    "DEST_AIRPORT_ID": 12953,
+    "DEST": "LGA",
+    "DEST_CITY_NAME": "New York, NY",
+    "DISTANCE": 431,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 345044,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 5615,
+    "DEST_AIRPORT_ID": 12953,
+    "DEST": "LGA",
+    "DEST_CITY_NAME": "New York, NY",
+    "DISTANCE": 431,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 345081,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 5693,
+    "DEST_AIRPORT_ID": 10721,
+    "DEST": "BOS",
+    "DEST_CITY_NAME": "Boston, MA",
+    "DISTANCE": 612,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 345618,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 5612,
+    "DEST_AIRPORT_ID": 10721,
+    "DEST": "BOS",
+    "DEST_CITY_NAME": "Boston, MA",
+    "DISTANCE": 612,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 345645,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 5638,
+    "DEST_AIRPORT_ID": 12953,
+    "DEST": "LGA",
+    "DEST_CITY_NAME": "New York, NY",
+    "DISTANCE": 431,
+    "DISTANCE_GROUP": 2
+  },
+  {
+    "": 347341,
+    "OP_UNIQUE_CARRIER": "YX",
+    "OP_CARRIER_FL_NUM": 5813,
+    "DEST_AIRPORT_ID": 11433,
+    "DEST": "DTW",
+    "DEST_CITY_NAME": "Detroit, MI",
+    "DISTANCE": 501,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 357033,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6113,
+    "DEST_AIRPORT_ID": 13204,
+    "DEST": "MCO",
+    "DEST_CITY_NAME": "Orlando, FL",
+    "DISTANCE": 534,
+    "DISTANCE_GROUP": 3
+  },
+  {
+    "": 357036,
+    "OP_UNIQUE_CARRIER": "WN",
+    "OP_CARRIER_FL_NUM": 6975,
+    "DEST_AIRPORT_ID": 13232,
+    "DEST": "MDW",
+    "DEST_CITY_NAME": "Chicago, IL",
+    "DISTANCE": 632,
+    "DISTANCE_GROUP": 3
+  }
+]
