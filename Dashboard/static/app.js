@@ -5,7 +5,7 @@ d3.json("RDUCurrentDestinations.json").then(function (data) {
     //console.log(data);
     for (var i = 0; i < data.length; i++) {
         var option = d3.select("#Destination").append("option").text(data[i].DEST_CITY_NAME);
-        console.log(option);
+        //console.log(option);
     }
 });
 
@@ -38,9 +38,9 @@ L.marker(RDU_lnglat)
     .addTo(myMap);
 
 
-d3.selectAll("#Price").on("change", optionChanged); on("submit", optionChanged);
-d3.selectAll("#Destination").on("change", optionChanged);
-d3.selectAll("#Date").on("change", optionChanged).on("submit", optionChanged);
+d3.select("#Destination").on("change", optionChanged);
+d3.select("#Price").on("change", optionChanged);
+d3.select("#Date").on("click", optionChanged);//Need to click twice.
 
 function optionChanged() {
     //d3.event.preventDefault();
@@ -49,21 +49,29 @@ function optionChanged() {
     var priceElement = d3.select("#Price");
     var price = priceElement.property("value");
     var dateElement = d3.select("#Date");
-    var date = dateElement.property("value"); //having issues with storing selected date as a variable.
+    var date = dateElement.property("value");
+    var date_split = date.split('/');
+    var year = date_split[2];
+    var month1 = date_split[0];;
+    var month = month1.substring(1);
+    var day = date_split[1];
     console.log(destination);
     console.log(price);
-    console.log(date);//having issues with this.
+    console.log(date);
+    console.log(year);
+    console.log(month);
+    console.log(day);
 
     search_dest = [];
 
     d3.json("RDUCurrentDestinations.json").then(function (data) {
         //console.log(data);
-        var destData = data
+        var destData = data;
         //console.log(destData)
         var search = destData.filter(dest => dest.DEST_CITY_NAME == destination);
-        console.log(search);
+        //console.log(search);
         var airport = search[0].DEST;
-        console.log(airport);
+        //console.log(airport);
         search_dest.push(airport);
         const latitude = search[0].LATITUDE;
         const longitude = search[0].LONGITUDE;
@@ -83,18 +91,55 @@ function optionChanged() {
             .bindPopup("<h3> To: <strong>" + search[0].DEST_CITY_NAME + "</strong> </h3> <hr> <h6> Airport: " + search[0].DEST + "</h6> <hr> <h6> Flight Distance (miles): " + search[0].DISTANCE + "</h6>")
             .addTo(myMap);
     });
+
+    console.log(search_dest);
+
     // Add airlines and flight numbers to FLIGHT INFO BOX - format should be as a table
     d3.json("RDUCurrentFlights.json").then(function (data2) {
-
-
-    });
-    // Extract, calculate and graph delay causes (%) as bar graph to FLIGHT DELAY INFO BOX. 
-    d3.json("ALB_2015_2019_Delay_Causes_TEST.json").then(function (data3) {
-
+        //console.log(data2);
     });
 
-};
+    d3.json("MDW_2015_Q1_Delays_Causes_TEST.json").then(function (data3) {
+        //console.log(data3);
+        var delays_causes = data3;
+        //console.log(delays_causes);
+        console.log(search_dest);
+        console.log(month);
+        var filter_dcs1 = delays_causes.filter(item => item.DEST == search_dest && item.MONTH == month);
+        console.log(filter_dcs1);
+
+        var weather = [];
+        var NASs = [];
+        var security = [];
+        var late_aircraft = [];
+
+        for (var i = 0; i < filter_dcs1.length; i++) {
+            if (filter_dcs1[i].WEATHER_DELAY > 0) { weather.push(filter_dcs1[i].OP_CARRIER_FL_NUM); }
+            if (filter_dcs1[i].NAS_DELAY > 0) { NASs.push(filter_dcs1[i].OP_CARRIER_FL_NUM); }
+            if (filter_dcs1[i].SECURITY_DELAY > 0) { security.push(filter_dcs1[i].OP_CARRIER_FL_NUM); }
+            if (filter_dcs1[i].LATE_AIRCRAFT_DELAY > 0) { late_aircraft.push(filter_dcs1[i].OP_CARRIER_FL_NUM); }
+        }
+
+        var percent_weather = (weather.length / filter_dcs1.length) * 100
+        var percent_NAS = (NASs.length / filter_dcs1.length) * 100
+        var percent_security = (security.length / filter_dcs1.length) * 100
+        var percent_late_aircraft = (late_aircraft.length / filter_dcs1.length) * 100
+        console.log(percent_weather);
+        console.log(percent_NAS);
+        console.log(percent_security);
+        console.log(percent_late_aircraft);
 
 
-
-
+        var barchart = [{
+            x: ["Weather", "NAS", "Security", "Late Aircraft"],
+            y: [percent_weather, percent_NAS, percent_security, percent_late_aircraft],
+            type: "bar",
+            automargin: true,
+            sort: false,
+        }];
+        var layout = {
+            yaxis: { title: '% of Flights (2015-2019)' }
+        };
+        Plotly.newPlot('bar', barchart, layout);
+    });
+}
