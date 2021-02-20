@@ -184,7 +184,7 @@ function optionChanged() {
             sort: false,
         }];
         var layout = {
-            title: `% of Flights by Search Month (2015-2019)`,
+            title: `% of Flights to ${search_dest} (2015-2019)`,
             showlegend: false,
             
         };
