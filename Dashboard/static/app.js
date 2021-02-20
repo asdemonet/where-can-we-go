@@ -140,7 +140,7 @@ function optionChanged() {
         var layout = {
             yaxis: { title: '% of Flights (2015-2019)' }
         };
-        Plotly.newPlot('bar2', barchart, layout);
+        Plotly.newPlot('bar', barchart, layout);
 
         // Count of all flights in a given month
         var flight_count = filter_dcs1.length;
@@ -170,17 +170,24 @@ function optionChanged() {
         console.log(diverted);
         var percent_diverted = (Math.round(diverted * 10000)/100);
 
-        var barchart = [{
-            x: ["Delayed Departures", "Delayed Arrivals", "Cancelled Flights", "Diverted Flights"],
-            y: [percent_delayed_dep, percent_delayed_arr, percent_cancelled, diverted_flights],
-            type: "bar",
+        var piechart = [{
+            values: [flight_count, delayed_departures, delayed_arrivals, cancelled_flights, diverted_flights],
+            labels: ["Normal Flights", "Delayed Departures", "Delayed Arrivals", "Cancelled Flights", "Diverted Flights"],
+            marker: {
+                colors: ['rgb(31, 119, 180)', 'rgb(255, 127, 14)',
+                'rgb(44, 160, 44)', 'rgb(214, 39, 40)',
+                'rgb(148, 103, 189)']
+            },
+            type: "pie",
+            hoverinfo: "label+percent",
             automargin: true,
             sort: false,
         }];
         var layout = {
-            yaxis: { title: `% of Flights by Search Month (2015-2019)` }
+            title: `% of Flights by Search Month (2015-2019)`,
+            showlegend: false,
             
         };
-        Plotly.newPlot('bar', barchart, layout);
+        Plotly.newPlot('pie', piechart, layout);
     });
 }
