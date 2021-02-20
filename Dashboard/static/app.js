@@ -143,7 +143,8 @@ function optionChanged() {
         Plotly.newPlot('bar', barchart, layout);
 
         // Count of all flights in a given month
-        var flight_count = filter_dcs1.length;
+        var total_flight_count = filter_dcs1.filter(item => item.DEP_DEL15 == 0 && item.ARR_DEL15 == 0 && item.CANCELLED == 0 && item.DIVERTED == 0);
+        var flight_count = total_flight_count.length;
         console.log("Flight count: ", flight_count);
         // Delayed Departures
         var delayed_departures = filter_dcs1.filter(item => item.DEP_DEL15 == 1).length;
