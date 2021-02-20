@@ -140,6 +140,47 @@ function optionChanged() {
         var layout = {
             yaxis: { title: '% of Flights (2015-2019)' }
         };
+        Plotly.newPlot('bar2', barchart, layout);
+
+        // Count of all flights in a given month
+        var flight_count = filter_dcs1.length;
+        console.log("Flight count: ", flight_count);
+        // Delayed Departures
+        var delayed_departures = filter_dcs1.filter(item => item.DEP_DEL15 == 1).length;
+        console.log("Delayed depatures: ", delayed_departures);
+        var delayed_dep = delayed_departures/flight_count;
+        console.log(delayed_dep);
+        var percent_delayed_dep = (Math.round(delayed_dep * 10000)/100);
+        // Delayed Arrivals
+        var delayed_arrivals = filter_dcs1.filter(item => item.ARR_DEL15 == 1).length;
+        console.log("Delayed arrivals: ", delayed_arrivals);
+        var delayed_arr = delayed_arrivals/flight_count;
+        console.log(delayed_arr);
+        var percent_delayed_arr = (Math.round(delayed_arr * 10000)/100);
+        // Cancelled Flights
+        var cancelled_flights = filter_dcs1.filter(item => item.CANCELLED == 1).length;
+        console.log("Cancelled flights: ", cancelled_flights);
+        var cancelled = cancelled_flights/flight_count;
+        console.log(cancelled);
+        var percent_cancelled = (Math.round(cancelled * 10000)/100);
+        // Diverted Flights
+        var diverted_flights = filter_dcs1.filter(item => item.DIVERTED == 1).length;
+        console.log("Diverted flights: ", diverted_flights);
+        var diverted = diverted_flights/flight_count;
+        console.log(diverted);
+        var percent_diverted = (Math.round(diverted * 10000)/100);
+
+        var barchart = [{
+            x: ["Delayed Departures", "Delayed Arrivals", "Cancelled Flights", "Diverted Flights"],
+            y: [percent_delayed_dep, percent_delayed_arr, percent_cancelled, diverted_flights],
+            type: "bar",
+            automargin: true,
+            sort: false,
+        }];
+        var layout = {
+            yaxis: { title: `% of Flights by Search Month (2015-2019)` }
+            
+        };
         Plotly.newPlot('bar', barchart, layout);
     });
 }
