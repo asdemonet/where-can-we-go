@@ -174,8 +174,8 @@ function optionChanged() {
             values: [flight_count, delayed_departures, delayed_arrivals, cancelled_flights, diverted_flights],
             labels: ["Normal Flights", "Delayed Departures", "Delayed Arrivals", "Cancelled Flights", "Diverted Flights"],
             marker: {
-                colors: ['rgb(31, 119, 180)', 'rgb(255, 127, 14)',
-                'rgb(44, 160, 44)', 'rgb(214, 39, 40)',
+                colors: ['rgb(44, 160, 44)', 'rgb(255,255,0)', 'rgb(255, 127, 14)',
+                'rgb(214, 39, 40)',
                 'rgb(148, 103, 189)']
             },
             type: "pie",
