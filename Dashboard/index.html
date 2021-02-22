@@ -27,7 +27,7 @@
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>Where can I fly for my escape?</h1>
-        <p>Use our interactive app to your affordable and smooth sailing flight from RDU.</p>
+        <p>Use our interactive app to your next affordable and smooth sailing flight from RDU.</p>
       </div>
     </div>
     <div class="row">
@@ -59,7 +59,7 @@
     </div>
     <script type="text/javascript">
       $(document).ready(function () {
-        var date_input = $('input[name="Date"]'); //our date input has the name "date"
+        var date_input = $('input[name="Date"]');
         var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
         var options = {
           format: 'mm/dd/yyyy',
@@ -79,19 +79,27 @@
   </div>
   <br>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <h3 class="panel-title">Flight Information & Price:</h3>
+          <h3 class="panel-title">Flight Information & Pricing:</h3>
         </div>
         <div id="sample-metadata" class="panel-body"></div>
         <ul></ul>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <h3 class="panel-title">Flight Delay & Causes:</h3>
+          <h3 class="panel-title">Flight Delays in Search Month:</h3>
+        </div>
+        <div id="pie"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Flight Delay Causes:</h3>
         </div>
         <div id="bar"></div>
       </div>
@@ -103,7 +111,7 @@
     crossorigin=""></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
   <script src="RDUCurrentDestinations.json"></script>
-  <script src="ALB_2015_2019_Delay_Causes_TEST.json"></script>
+  <script src="MDW_2015_Q1_Delays_Causes_TEST.json"></script>
   <script src="RDUCurrentFlights.json"></script>
   <script type="text/javascript" src="config.js"></script>
   <script src="./static/app.js"></script>
