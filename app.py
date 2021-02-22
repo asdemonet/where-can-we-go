@@ -255,7 +255,7 @@ def getRDU_2015_19_Delays_Causes_MLPosgres():
             "WEATHER_DELAY": Delay_Cause.WEATHER_DELAY,
             "NAS_DELAY": Delay_Cause.NAS_DELAY,
             "SECURITY_DELAY": Delay_Cause.SECURITY_DELAY,
-            "LATE_AIRCRAFT_DELAY": Delay_Cause.LATE_AIRCRAFT_DELAY,
+            "LATE_AIRCRAFT_DELAY": Delay_Cause.LATE_AIRCRAFT_DELAY
         }
         Delays.append(item)
     return jsonify(Delays)
