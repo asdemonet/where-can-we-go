@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Next Flight</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Where can I fly for my escape?</h1>
+        <p>Use our app to find your next affordable and smooth sailing flight from RDU.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class=" col-md-4">
+        <div class="well">
+          <label for="Destination" class="form-label">Travel Destination</label>
+          <select id="Destination"></select>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="well">
+          <div class="input-group mb-3">
+            <label for="PriceInput" class="form-label">Maximum Ticket Price ($)</label>
+            <input type="text" class="form-control" id="Price" placeholder="200.00">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="well">
+          <form method="post">
+            <div class="form-group">
+              <label class="control-label" for="Date">Departure Date</label>
+              <input class="form-control" id="Date" name="Date" placeholder="MM/DD/YYYY" type='text' />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var date_input = $('input[name="Date"]');
+        var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
+        var options = {
+          format: 'mm/dd/yyyy',
+          container: container,
+          todayHighlight: true,
+          autoclose: true,
+        };
+        date_input.datepicker(options);
+      })
+    </script>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-8">
+      <div id="map"></div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Flight Delays in Search Month:</h3>
+        </div>
+        <div id="pie"></div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-8">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Flight Information & Pricing:</h3>
+          <br>
+          <table id="flight-table" class="table">
+            <thead>
+              <tr>
+                <th class="table-head">Carrier</th>
+                <th class="table-head">Departure Time</th>
+                <th class="table-head">Arrival Time</th>
+                <th class="table-head">Price</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Causes for Delays:</h3>
+        </div>
+        <div id="donuts"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
+  <script src="/api/RDUCurrentDestinations"></script>
+  <script src="/api/RDU_2015_19_Delays_Causes_ML"></script>
+  <script src="/api/RDUCurrentFlights"></script>
+  <script type="text/javascript" src="config.js"></script>
+  <script src="./static/app.js"></script>
+</body>
+
+</html>
