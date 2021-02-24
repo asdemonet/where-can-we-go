@@ -1,17 +1,13 @@
 from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 from os import environ
-
 app = Flask(__name__)
-
 app.config["SQLALCHEMY_DATABASE_URI"] = environ.get(
     "DATABASE_URL", "postgres://uvkevmfeflgftz:2a6425e69fd223d481c141d4132fcc9bad2d1a23602d3d0fab9e5b9e703803cf@ec2-52-23-190-126.compute-1.amazonaws.com:5432/d4jqhhtr5hhroa")
-
 db = SQLAlchemy(app)
-
-
 class FINAL_MERGE(db.Model):
-    ITIN_ID = db.Column(db.Integer, primary_key=True)
+    index = db.Column(db.Integer, primary_key=True)
+    ITIN_ID = db.Column(db.Integer)
     COUPONS = db.Column(db.Integer)
     YEAR = db.Column(db.Integer)
     ORIGIN_AIRPORT_ID = db.Column(db.Integer)
@@ -29,20 +25,17 @@ class FINAL_MERGE(db.Model):
     ROUNDTRIP = db.Column(db.Integer)
     ITIN_FARE = db.Column(db.Integer)
     MILES_FLOWN = db.Column(db.Integer)
-
-
 class L_AIRPORT_ID(db.Model):
-    CODE = db.Column(db.Integer, primary_key=True)
+    index = db.Column(db.Integer, primary_key=True)
+    CODE = db.Column(db.Integer)
     Description = db.Column(db.String)
-
-
 class L_UNIQUE_CARRIERS(db.Model):
-    CODE = db.Column(db.Integer, primary_key=True)
+    index = db.Column(db.Integer, primary_key=True)
+    CODE = db.Column(db.Integer)
     Description = db.Column(db.String)
-
-
 class RDUCurrentDestinations(db.Model):
-    DEST_AIRPORT_ID = db.Column(db.Integer, primary_key=True)
+    index = db.Column(db.Integer, primary_key=True)
+    DEST_AIRPORT_ID = db.Column(db.Integer)
     DEST = db.Column(db.String)
     DEST_CITY_NAME = db.Column(db.String)
     DISTANCE = db.Column(db.Integer)
@@ -51,20 +44,18 @@ class RDUCurrentDestinations(db.Model):
     STATE = db.Column(db.String)
     LATITUDE = db.Column(db.Integer)
     LONGITUDE = db.Column(db.Integer)
-
-
 class RDUCurrentFlights(db.Model):
-    OP_UNIQUE_CARRIER = db.Column(db.String, primary_key=True)
+    index = db.Column(db.Integer, primary_key=True)
+    OP_UNIQUE_CARRIER = db.Column(db.String)
     OP_CARRIER_FL_NUM = db.Column(db.Integer)
     DEST_AIRPORT_ID = db.Column(db.Integer)
     DEST = db.Column(db.String)
     DEST_CITY_NAME = db.Column(db.String)
     DISTANCE = db.Column(db.Integer)
     DISTANCE_GROUP = db.Column(db.Integer)
-    
-
 class RDU_2015_19_Delays_Causes_ML(db.Model):
-    YEAR = db.Column(db.Integer, primary_key=True)
+    index = db.Column(db.Integer, primary_key=True)
+    YEAR = db.Column(db.Integer)
     QUARTER = db.Column(db.Integer)
     MONTH = db.Column(db.Integer)
     DATE_OF_MONTH = db.Column(db.Integer)
@@ -107,20 +98,17 @@ class RDU_2015_19_Delays_Causes_ML(db.Model):
     NAS_DELAY = db.Column(db.Integer)
     SECURITY_DELAY = db.Column(db.Integer)
     LATE_AIRCRAFT_DELAY = db.Column(db.Integer)
-
-
 @app.route("/")
 def index():
     return render_template("index.html")
-
-
 @app.route("/api/FINAL_MERGE")
 def getFINAL_MERGEPosgres():
     flights = db.session.query(FINAL_MERGE)
     FINAL_MERGEdata = []
     for flight in flights:
         item = {
-            "ITIN_ID" : flight.ITIN_ID,
+            "index": flight.index,
+            "ITIN_ID": flight.ITIN_ID,
             "COUPONS": flight.COUPONS,
             "YEAR": flight.YEAR,
             "ORIGIN_AIRPORT_ID": flight.ORIGIN_AIRPORT_ID,
@@ -141,40 +129,37 @@ def getFINAL_MERGEPosgres():
         }
         FINAL_MERGEdata.append(item)
     return jsonify(FINAL_MERGEdata)
-
-
 @app.route("/api/L_AIRPORT_ID")
 def getL_AIRPORT_IDPosgres():
     airports = db.session.query(L_AIRPORT_ID)
     L_AIRPORT_ID = []
     for airport in airports:
         item = {
+            "index": airport.index,
             "Code": airport.Code,
             "Description": airport.Description
         }
         L_AIRPORT_ID.append(item)
     return jsonify(L_AIRPORT_ID)
-
-
 @app.route("/api/L_UNIQUE_CARRIERS")
 def getL_UNIQUE_CARRIERSPosgres():
     carriers = db.session.query(L_UNIQUE_CARRIERS)
     L_UNIQUE_CARRIERS = []
     for carrier in carriers:
         item = {
+            "index": carrier.index,
             "Code": carrier.Code,
             "Description": carrier.Description
         }
         L_UNIQUE_CARRIERS.append(item)
     return jsonify(L_UNIQUE_CARRIERS)
-
-
 @app.route("/api/RDUCurrentDestinations")
 def getRDUCurrentDestinationsPosgres():
     Destinations = db.session.query(RDUCurrentDestinations)
     CurrentDestinations = []
     for Destination in Destinations:
         item = {
+            "index": Destination.index,
             "DEST_AIRPORT_ID": Destination.DEST_AIRPORT_ID,
             "DEST": Destination.DEST,
             "DEST_CITY_NAME": Destination.DEST_CITY_NAME,
@@ -187,14 +172,13 @@ def getRDUCurrentDestinationsPosgres():
         }
         CurrentDestinations.append(item)
     return jsonify(CurrentDestinations)
-
-
 @app.route("/api/RDUCurrentFlights")
 def getRDUCurrentFlightsPosgres():
     Current_Flights = db.session.query(RDUCurrentFlights)
     cf = []
     for Current_Flight in Current_Flights:
         item = {
+            "index": Current_Flight.index,
             "OP_UNIQUE_CARRIER": Current_Flight.OP_UNIQUE_CARRIER,
             "OP_CARRIER_FL_NUM": Current_Flight.OP_CARRIER_FL_NUM,
             "DEST_AIRPORT_ID": Current_Flight.DEST_AIRPORT_ID,
@@ -205,14 +189,13 @@ def getRDUCurrentFlightsPosgres():
                 }
         cf.append(item)
     return jsonify(cf)
-
-
 @app.route("/api/RDU_2015_19_Delays_Causes_ML")
 def getRDU_2015_19_Delays_Causes_MLPosgres():
     Delay_Causes = db.session.query(RDU_2015_19_Delays_Causes_ML)
     Delays = []
     for Delay_Cause in Delay_Causes:
         item = {
+            "index": Delay_Cause.index,
             "YEAR": Delay_Cause.YEAR,
             "QUARTER": Delay_Cause.QUARTER,
             "MONTH": Delay_Cause.MONTH,
@@ -259,7 +242,5 @@ def getRDU_2015_19_Delays_Causes_MLPosgres():
         }
         Delays.append(item)
     return jsonify(Delays)
-
-
 if __name__ == "__main__":
     app.run(debug=True)
