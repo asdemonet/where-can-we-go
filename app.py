@@ -5,7 +5,10 @@ app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = environ.get(
     "DATABASE_URL", "postgres://uvkevmfeflgftz:2a6425e69fd223d481c141d4132fcc9bad2d1a23602d3d0fab9e5b9e703803cf@ec2-52-23-190-126.compute-1.amazonaws.com:5432/d4jqhhtr5hhroa")
 db = SQLAlchemy(app)
+
+
 class FINAL_MERGE(db.Model):
+    __tablename__ = 'FINAL_MERGE'
     index = db.Column(db.Integer, primary_key=True)
     ITIN_ID = db.Column(db.Integer)
     COUPONS = db.Column(db.Integer)
@@ -25,15 +28,24 @@ class FINAL_MERGE(db.Model):
     ROUNDTRIP = db.Column(db.Integer)
     ITIN_FARE = db.Column(db.Integer)
     MILES_FLOWN = db.Column(db.Integer)
+
+
 class L_AIRPORT_ID(db.Model):
+    __tablename__ = 'L_AIRPORT_ID'
     index = db.Column(db.Integer, primary_key=True)
     CODE = db.Column(db.Integer)
     Description = db.Column(db.String)
+
+
 class L_UNIQUE_CARRIERS(db.Model):
+    __tablename__ = 'L_UNIQUE_CARRIERS'
     index = db.Column(db.Integer, primary_key=True)
     CODE = db.Column(db.Integer)
     Description = db.Column(db.String)
+
+
 class RDUCurrentDestinations(db.Model):
+    __tablename__ = 'RDUCurrentDestinations'
     index = db.Column(db.Integer, primary_key=True)
     DEST_AIRPORT_ID = db.Column(db.Integer)
     DEST = db.Column(db.String)
@@ -44,7 +56,10 @@ class RDUCurrentDestinations(db.Model):
     STATE = db.Column(db.String)
     LATITUDE = db.Column(db.Integer)
     LONGITUDE = db.Column(db.Integer)
+
+
 class RDUCurrentFlights(db.Model):
+    __tablename__ = 'RDUCurrentFlights'
     index = db.Column(db.Integer, primary_key=True)
     OP_UNIQUE_CARRIER = db.Column(db.String)
     OP_CARRIER_FL_NUM = db.Column(db.Integer)
@@ -53,13 +68,16 @@ class RDUCurrentFlights(db.Model):
     DEST_CITY_NAME = db.Column(db.String)
     DISTANCE = db.Column(db.Integer)
     DISTANCE_GROUP = db.Column(db.Integer)
+
+
 class RDU_2015_19_Delays_Causes_ML(db.Model):
+    __tablename__ = 'RDU_2015_19_Delays_Causes_ML'
     index = db.Column(db.Integer, primary_key=True)
     YEAR = db.Column(db.Integer)
     QUARTER = db.Column(db.Integer)
     MONTH = db.Column(db.Integer)
-    DATE_OF_MONTH = db.Column(db.Integer)
-    DATE_OF_WEEK = db.Column(db.Integer)
+    DAY_OF_MONTH = db.Column(db.Integer)
+    DAY_OF_WEEK = db.Column(db.Integer)
     FL_DATE = db.Column(db.Date)
     OP_UNIQUE_CARRIER = db.Column(db.String)
     OP_CARRIER_FL_NUM = db.Column(db.Integer)
@@ -74,7 +92,7 @@ class RDU_2015_19_Delays_Causes_ML(db.Model):
     CRS_DEP_TIME = db.Column(db.Integer)
     DEP_TIME = db.Column(db.Integer)
     DEP_DELAY = db.Column(db.Integer)
-    DEP_TIME_NEW = db.Column(db.Integer)
+    DEP_DELAY_NEW = db.Column(db.Integer)
     DEP_DEL15 = db.Column(db.Integer)
     DEP_DELAY_GROUP = db.Column(db.Integer)
     DEP_TIME_BLK = db.Column(db.String)
@@ -98,9 +116,13 @@ class RDU_2015_19_Delays_Causes_ML(db.Model):
     NAS_DELAY = db.Column(db.Integer)
     SECURITY_DELAY = db.Column(db.Integer)
     LATE_AIRCRAFT_DELAY = db.Column(db.Integer)
+
+
 @app.route("/")
 def index():
     return render_template("index.html")
+
+
 @app.route("/api/FINAL_MERGE")
 def getFINAL_MERGEPosgres():
     flights = db.session.query(FINAL_MERGE)
@@ -129,6 +151,8 @@ def getFINAL_MERGEPosgres():
         }
         FINAL_MERGEdata.append(item)
     return jsonify(FINAL_MERGEdata)
+
+
 @app.route("/api/L_AIRPORT_ID")
 def getL_AIRPORT_IDPosgres():
     airports = db.session.query(L_AIRPORT_ID)
@@ -141,6 +165,8 @@ def getL_AIRPORT_IDPosgres():
         }
         L_AIRPORT_ID.append(item)
     return jsonify(L_AIRPORT_ID)
+
+
 @app.route("/api/L_UNIQUE_CARRIERS")
 def getL_UNIQUE_CARRIERSPosgres():
     carriers = db.session.query(L_UNIQUE_CARRIERS)
@@ -153,6 +179,8 @@ def getL_UNIQUE_CARRIERSPosgres():
         }
         L_UNIQUE_CARRIERS.append(item)
     return jsonify(L_UNIQUE_CARRIERS)
+
+
 @app.route("/api/RDUCurrentDestinations")
 def getRDUCurrentDestinationsPosgres():
     print("beginning query")
@@ -177,6 +205,8 @@ def getRDUCurrentDestinationsPosgres():
         CurrentDestinations.append(item)
         print(CurrentDestinations)
     return jsonify(CurrentDestinations)
+
+
 @app.route("/api/RDUCurrentFlights")
 def getRDUCurrentFlightsPosgres():
     Current_Flights = db.session.query(RDUCurrentFlights)
@@ -191,9 +221,11 @@ def getRDUCurrentFlightsPosgres():
             "DEST_CITY_NAME": Current_Flight.DEST_CITY_NAME,
             "DISTANCE": Current_Flight.DISTANCE,
             "DISTANCE_GROUP": Current_Flight.DISTANCE_GROUP
-                }
+        }
         cf.append(item)
     return jsonify(cf)
+
+
 @app.route("/api/RDU_2015_19_Delays_Causes_ML")
 def getRDU_2015_19_Delays_Causes_MLPosgres():
     Delay_Causes = db.session.query(RDU_2015_19_Delays_Causes_ML)
@@ -247,20 +279,7 @@ def getRDU_2015_19_Delays_Causes_MLPosgres():
         }
         Delays.append(item)
     return jsonify(Delays)
+
+
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

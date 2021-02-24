@@ -86,7 +86,7 @@
   </div>
   <br>
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-6">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">Flight Information & Pricing:</h3>
@@ -97,12 +97,19 @@
                 <th class="table-head">Carrier</th>
                 <th class="table-head">Departure Time</th>
                 <th class="table-head">Arrival Time</th>
-                <th class="table-head">Price</th>
               </tr>
             </thead>
             <tbody></tbody>
           </table>
         </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Predicted Ticket Price</h3>
+        </div>
+        <div id="pricing" class='panel-body'></div>
       </div>
     </div>
     <div class="col-md-4">
@@ -119,6 +126,7 @@
     integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
     crossorigin=""></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
+  <script src="Pricing_ML.json"></script>
   <script type="text/javascript" src="config.js"></script>
   <script src="./static/app.js"></script>
 </body>

@@ -1,0 +1,32 @@
+[
+    {
+        "DISTANCE_GROUP": 1,
+        "PREDICTED_PRICE_LOW": 262.00,
+        "PREDICTED_PRICE_HIGH": 417.00
+    },
+    {
+        "DISTANCE_GROUP": 2,
+        "PREDICTED_PRICE_LOW": 247.00,
+        "PREDICTED_PRICE_HIGH": 410.00
+    },
+    {
+        "DISTANCE_GROUP": 3,
+        "PREDICTED_PRICE_LOW": 291.00,
+        "PREDICTED_PRICE_HIGH": 471.00
+    },
+    {
+        "DISTANCE_GROUP": 4,
+        "PREDICTED_PRICE_LOW": 363.00,
+        "PREDICTED_PRICE_HIGH": 525.00
+    },
+    {
+        "DISTANCE_GROUP": 5,
+        "PREDICTED_PRICE_LOW": 325.00,
+        "PREDICTED_PRICE_HIGH": 505.00
+    },
+    {
+        "DISTANCE_GROUP": 6,
+        "PREDICTED_PRICE_LOW": 311.00,
+        "PREDICTED_PRICE_HIGH": 466.00
+    }
+]

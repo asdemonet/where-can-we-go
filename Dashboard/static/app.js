@@ -64,7 +64,7 @@ function optionChanged() {
     console.log(day);
 
     search_dest = [];
-
+    distance_group = [];
     d3.json("RDUCurrentDestinations.json").then(function (data) {
         //console.log(data);
         var destData = data;
@@ -77,7 +77,8 @@ function optionChanged() {
         const latitude = search[0].LATITUDE;
         const longitude = search[0].LONGITUDE;
         const lnglat = { lon: longitude, lat: latitude };
-        const distance_type = search[0].DISTANCE_GROUP; //distance_type is distance_group
+        const distance = search[0].DISTANCE_GROUP; //distance is distance_group
+        distance_group.push(distance);
         const pointA = new L.LatLng(35.7803977, -78.6390989); //point A is RDU LatLng
         const pointB = new L.LatLng(latitude, longitude);//pointB is dest LatLng
         var pointList = [pointA, pointB];
@@ -94,6 +95,20 @@ function optionChanged() {
     });
 
     console.log(search_dest);
+    console.log(distance_group);
+
+    //Machine Learning Predicted Pricing Range
+    d3.json("Pricing_ML.json").then(function (data4) {
+        console.log(data4);
+        var prices_ml = data4;
+        var price_range = prices_ml.filter(item => item.DISTANCE_GROUP == distance_group);
+        console.log(price_range)
+        var price_range_info = price_range[0];
+        var pricinginfo = d3.select('#pricing');
+        pricinginfo.html("");
+        var pricing2 = pricinginfo.append("ul").html(`<b>Price Range: $</b> ${price_range_info.PREDICTED_PRICE_LOW} - ${price_range_info.PREDICTED_PRICE_HIGH}`);
+        console.log(pricing2);
+    });
 
     var carrier_list = [];
 
@@ -181,7 +196,6 @@ function optionChanged() {
                     'rgb(148, 103, 189)']
             },
             type: "pie",
-            hoverinfo: "label+percent",
             automargin: true,
             sort: false,
         }];
@@ -283,21 +297,17 @@ function optionChanged() {
             labels: allLabels,
             hole: .4,
             type: 'pie',
-            name: 'Delayed Departures',
+            text: 'Delayed Departures',
             marker: {
-                colors: ultimateColors[0]
+                colors: ultimateColors[0],
+                line: {
+                    color: 'rgb(255, 255, 0)',
+                    width: 2
+                }
             },
             domain: {
                 row: 0,
                 column: 0
-            },
-            hoverinfo: 'label+percent+name',
-            text: "Delayed Departures",
-            textposition: "bottom",
-            textfont: {
-                family: 'sans serif',
-                size: 10,
-                color: 'rgb(255, 255, 0)'
             },
             automargin: true
         }, {
@@ -307,19 +317,15 @@ function optionChanged() {
             type: 'pie',
             name: 'Delayed Arrivals',
             marker: {
-                colors: ultimateColors[1]
+                colors: ultimateColors[1],
+                line: {
+                    color: 'rgb(255, 127, 14)',
+                    width: 2
+                }
             },
             domain: {
                 row: 1,
                 column: 0
-            },
-            hoverinfo: 'label+percent+name',
-            text: "Delayed Arrivals",
-            textposition: "bottom",
-            textfont: {
-                family: 'sans serif',
-                size: 10,
-                color: 'rgb(255, 127, 14)'
             },
             automargin: true
         }, {
@@ -329,19 +335,15 @@ function optionChanged() {
             type: 'pie',
             name: 'Cancelled Flights',
             marker: {
-                colors: ultimateColors[2]
+                colors: ultimateColors[2],
+                line: {
+                    color: 'rgb(214, 39, 40)',
+                    width: 2
+                }
             },
             domain: {
                 row: 0,
                 column: 1
-            },
-            hoverinfo: 'label+percent+name',
-            text: "Cancelled Flights",
-            textposition: "bottom",
-            textfont: {
-                family: 'sans serif',
-                size: 10,
-                color: 'rgb(214, 39, 40)'
             },
             automargin: true
         }, {
@@ -351,27 +353,22 @@ function optionChanged() {
             type: 'pie',
             name: 'Diverted Flights',
             marker: {
-                colors: ultimateColors[3]
+                colors: ultimateColors[3],
+                line: {
+                    color: 'rgb(148, 103, 189)',
+                    width: 2
+                }
             },
             domain: {
                 x: [0.52, 1],
                 y: [0, 0.48]
             },
-            hoverinfo: 'label+percent+name',
-            text: "Diverted Flights",
-            textposition: "bottom",
-            textfont: {
-                family: 'sans serif',
-                size: 10,
-                color: 'rgb(148, 103, 189)'
-            },
             automargin: true
         }];
 
         var layout2 = {
-            title: '% of Flights (2015-2019)',
-            height: 550,
-            width: 550,
+            height: 500,
+            width: 500,
             location: screenLeft,
             grid: { rows: 2, columns: 2 },
             showlegend: true,
