@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pricing Machine Learning</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container", >
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 style="text-align:center">Machine Learning Analysis & Report - Pricing</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+          <div class="form-group">
+            <label for="airlines">Airline</label>
+              <select class="form-control" id="airline-options">
+                <option>AA - American Airlines</option>
+                <option>DL - Delta Airlines</option>
+                <option>WN - Southwest Airlines</option>
+              </select>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="scatter"></div>
+    </div>
+    <div class="row">
+      <br><h3 style="text-align:center">Machine Learning Table</h3>
+      <div class ="col-md-1"></div>
+      <div class ="col-md-10" id="prediction-table"></div>
+      <div class ="col-md-1"></div>
+    </div>
+    <div class="row">
+      <div class ="col-md-1"></div>
+      <div class ="col-md-10" id="write-up">
+        <h3 style="text-align:center"> Machine Learning - Findings on Pricing</h3>
+        <br>
+        <p><u><b>Objective:</b></u> To develop a machine learning model that can predict price of an airline ticket for a outbound flight at RDU</p>
+        <br>
+        <p><u><b>Model Info:</b></u>
+        <ul>
+          <li>Data Source: OTS Filler</li>
+          <li>Model Type: Neural Network</li>
+          <li>Inputs: # Coupons, # Passengers, Round Trip, Airline</li>
+          <li>Outputs: Low Fare, Average Fare and High Fare</li>
+          <li>Accuracy: 0.537%</li>
+          <li>Loss: 0.933</li>
+        </ul>
+        </p>
+        <br>
+        <p><u><b>Process:</b></u>
+          <br>
+          <ul><u>Step 1: Load, Clean and Filter Data</u>
+            <br>
+            <ul>
+              Using data extracted from the OTS data source our team loaded in csv files in python and
+              the pandas module. To clean the data, we removed outliers based on itinerary fares using the Interquartile Range (IQR). 
+              After removing said outliers, we designated a `Price Bin` based on a fare's position in the dataset. The three (3) bins are 
+              "Low Fare", "Average Fare" and "High Fare" based on absolute position in the dataset. For example: If a fare is $100 and is in the lower 1/3 of the dataset
+              then that point would be designated a "Low Fare". The `Price Bin` serves as the output in the machine learning model
+            </ul>
+          </ul>
+          <ul><u>Step 2: Preparing Data for a Neural Network</u>
+            <br>
+            <ul>
+              Before filtering data further our team looked at correlation of each variable in relation to the Price Bin.
+              To analyze correlation all the independent variables (X) needed to be converter from cateogrical to numerical.
+              To accomplish this the "pd.get_dummies(X)" function was used to create columns with binary input (0 = True, 1 = False)
+              After running correlation on these variables we found that <u>Number of Coupons, Number of Passengers, Round Trip and Airline</u> were the most significant
+              variables. These variables became the independent variables for our model
+            </ul>
+            <br>
+            <ul>
+              The dependent variable `Price Bins` was also cateogrical. To convert this to numerical
+              our team used a label encoder to designate 0, 1 or 2 (Low, Average, High) as the output.
+            </ul>
+          </ul>
+          <ul><u>Step 3: Training, Testing and Running the Model</u>
+            <br>
+            <ul>
+              After specifying a test and training set for both X and Y variables, the X variables were scaled using
+              the Standard Scaler function. Our team chose a neural network model and specified the model as Sequential
+              with a Dense layer. 14 inputs, 4 hidden notes and 3 outputs were run with epochs = 10. A `sparse categorical cross-entropy` loss was used. The model was
+              0.537% accurate with a loss factor of 0.933
+            </ul>
+          </ul>
+        </p>
+        <p><u><b>Conclusion:</b></u>
+          With an accuracy of 0.533 and a loss factor of 0.933 this model is not recommended for use and is not a good predictor of price. Since the data is 
+          largely random with low correlation, the model typically designates "Average Fare" as a predicted output for most combinations of
+          X variables. 
+
+          Our team believes the model can be improved with a different dataset or better input variables such as date, demand, competition...etc. We will continue to explore datasets to produce a more accurate model.
+        </p>
+      </div>
+      <div class ="col-md-1"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./static/aa_data.json"></script>
+  <script src="./static/dl_data.json"></script>
+  <script src="./static/wn_data.json"></script>
+  <script src="./static/ml.js"></script>
+  
+</body>
+
+</html>
