@@ -64,6 +64,7 @@ function optionChanged() {
     console.log(day);
 
     search_dest = [];
+    distance_group = [];
 
     d3.json("/api/RDUCurrentDestinations").then(function (data) {
         //console.log(data);
