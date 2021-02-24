@@ -2,7 +2,7 @@
 // Add list of Destinations to drop down menu.
 
 d3.json("/api/RDUCurrentDestinations").then(function (data) {
-    //console.log(data);
+    console.log(data);
     for (var i = 0; i < data.length; i++) {
         var option = d3.select("#Destination").append("option").text(data[i].DEST_CITY_NAME);
         //console.log(option);

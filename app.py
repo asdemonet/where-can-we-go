@@ -155,9 +155,13 @@ def getL_UNIQUE_CARRIERSPosgres():
     return jsonify(L_UNIQUE_CARRIERS)
 @app.route("/api/RDUCurrentDestinations")
 def getRDUCurrentDestinationsPosgres():
+    print("beginning query")
     Destinations = db.session.query(RDUCurrentDestinations)
     CurrentDestinations = []
+    print("finished query")
+    print(Destinations)
     for Destination in Destinations:
+        print(Destination)
         item = {
             "index": Destination.index,
             "DEST_AIRPORT_ID": Destination.DEST_AIRPORT_ID,
@@ -171,6 +175,7 @@ def getRDUCurrentDestinationsPosgres():
             "LONGITUDE": Destination.LONGITUDE
         }
         CurrentDestinations.append(item)
+        print(CurrentDestinations)
     return jsonify(CurrentDestinations)
 @app.route("/api/RDUCurrentFlights")
 def getRDUCurrentFlightsPosgres():
