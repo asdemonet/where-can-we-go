@@ -99,17 +99,19 @@ function optionChanged() {
     console.log(distance_group);
 
     //Machine Learning Predicted Pricing Range
-    d3.json("Pricing_ML.json").then(function (data4) {
-        console.log(data4);
-        var prices_ml = data4;
-        var price_range = prices_ml.filter(item => item.DISTANCE_GROUP == distance_group);
-        console.log(price_range)
-        var price_range_info = price_range[0];
-        var pricinginfo = d3.select('#pricing');
-        pricinginfo.html("");
-        var pricing2 = pricinginfo.append("ul").html(`<b>Price Range: $</b> ${price_range_info.PREDICTED_PRICE_LOW} - ${price_range_info.PREDICTED_PRICE_HIGH}`);
-        console.log(pricing2);
-    });
+    //d3.json("static/Pricing_ML.json").then(function (data4) {
+    //console.log(data4);
+    //var prices_ml = data4;
+    //console.log(prices_ml);
+    //var distance = distance_group[0];
+    //var price_range = prices_ml.filter(item => item.DISTANCE_GROUP == distance);
+    //console.log(price_range)
+    //var price_range_info = price_range[0];
+    //var pricinginfo = d3.select('#pricing');
+    //pricinginfo.html("");
+    //var pricing2 = pricinginfo.append("ul").html(`<b>Price Range: $</b> ${price_range.PREDICTED_PRICE_LOW} - ${price_range.PREDICTED_PRICE_HIGH}`);
+    //console.log(pricing2);
+    //});
 
     var carrier_list = [];
 
@@ -129,8 +131,9 @@ function optionChanged() {
         //console.log(data3);
         var delays_causes = data3;
         //console.log(delays_causes);
+
         //filter delay date by day, month and most recent year to get all recent flights.
-        var time_search = delays_causes.filter(item => item.DEST == search_dest && item.DAY_OF_MONTH == day && item.MONTH == month && item.YEAR == 2015);//CHange to 2019 with API
+        var time_search = delays_causes.filter(item => item.DEST == search_dest && item.DAY_OF_MONTH == day && item.MONTH == month && item.YEAR == 2019);
         console.log(time_search);
         //create smaller dataset to include carrier, departure and arrival times.
         var tabledata = [];
@@ -142,6 +145,7 @@ function optionChanged() {
             tabledata.push(row)
         }
         console.log(tabledata);
+
         //Post into table.
         var tbody = d3.select("tbody");
         tbody.html("");
@@ -156,37 +160,20 @@ function optionChanged() {
 
         //console.log(search_dest);
         //console.log(month);
-        var filter_dcs1 = delays_causes.filter(item => item.DEST == search_dest && item.MONTH == month);
+        var filter_dcs1 = delays_causes.filter(item => item.DEST == search_dest[0] && item.MONTH == month);
         //console.log(filter_dcs1);
 
         // Count of all normal flights in a given month
         var flight_count = filter_dcs1.filter(item => item.DEP_DEL15 == 0 && item.ARR_DEL15 == 0 && item.CANCELLED == 0 && item.DIVERTED == 0);
         var normal_flight_count = flight_count.length;
-        //console.log("Flight count: ", normal_flight_count);
-        // Delayed Departures
+
         var delayed_departures = filter_dcs1.filter(item => item.DEP_DEL15 == 1).length;
-        //console.log("Delayed depatures: ", delayed_departures);
-        //var delayed_dep = delayed_departures / flight_count;
-        //console.log(delayed_dep);
-        //var percent_delayed_dep = (Math.round(delayed_dep * 10000) / 100);
-        // Delayed Arrivals
+
         var delayed_arrivals = filter_dcs1.filter(item => item.ARR_DEL15 == 1).length;
-        //console.log("Delayed arrivals: ", delayed_arrivals);
-        //var delayed_arr = delayed_arrivals / flight_count;
-        //console.log(delayed_arr);
-        //var percent_delayed_arr = (Math.round(delayed_arr * 10000) / 100);
-        // Cancelled Flights
+
         var cancelled_flights = filter_dcs1.filter(item => item.CANCELLED == 1).length;
-        //console.log("Cancelled flights: ", cancelled_flights);
-        //var cancelled = cancelled_flights / flight_count;
-        //console.log(cancelled);
-        //var percent_cancelled = (Math.round(cancelled * 10000) / 100);
-        // Diverted Flights
+
         var diverted_flights = filter_dcs1.filter(item => item.DIVERTED == 1).length;
-        //console.log("Diverted flights: ", diverted_flights);
-        //var diverted = diverted_flights / flight_count;
-        //console.log(diverted);
-        //var percent_diverted = (Math.round(diverted * 10000) / 100);
 
         var piechart = [{
             values: [normal_flight_count, delayed_departures, delayed_arrivals, cancelled_flights, diverted_flights],

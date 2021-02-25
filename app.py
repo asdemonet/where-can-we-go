@@ -122,6 +122,7 @@ class RDU_2015_19_Delays_Causes_ML(db.Model):
 def index():
     return render_template("index.html")
 
+
 @app.route("/machine-learning")
 def mach_learn():
     return render_template("mach.html")
