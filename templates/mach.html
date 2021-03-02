@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Pricing Machine Learning</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./static/style.css">
+  <link rel="stylesheet" type="text/css" href="./static/ml.css">
 </head>
 
 <body style="background-color: skyblue;">
@@ -47,7 +47,7 @@
     <div class="row">
       <div id="scatter"></div>
     </div>
-    <div class="row">
+    <div class="row" id="table-row">
       <br><h3 style="text-align:center">Machine Learning Table</h3>
       <div class ="col-md-1"></div>
       <div class ="col-md-10" id="prediction-table"></div>
@@ -94,7 +94,7 @@
             </ul>
             <br>
             <ul>
-              The dependent variable `Price Bins` was also cateogrical. To convert this to numerical
+              The dependent variable `Price Bins` was also categorical. To convert this to numerical
               our team used a label encoder to designate 0, 1 or 2 (Low, Average, High) as the output.
             </ul>
           </ul>

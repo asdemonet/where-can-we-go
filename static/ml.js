@@ -56,44 +56,119 @@ function makePlots(selected_airline) {
   d3.json(json_file).then(function(airline_data){
     var sampleData = airline_data[0].data
     //console.log(sampleData)
-    miles_flown = []
-    itin_fares = []
-    coupons = []
+    miles_flown_1 = []
+    itin_fares_1 = []
+    coupons_1 = []
+    miles_flown_2 = []
+    itin_fares_2 = []
+    coupons_2 = []
+    miles_flown_3 = []
+    itin_fares_3 = []
+    coupons_3 = []
+    miles_flown_4 = []
+    itin_fares_4 = []
+    coupons_4 = []
     colors = []
     sampleData.forEach(datapoint => {
-      miles_flown.push(datapoint[1]);
-      itin_fares.push(datapoint[3]);
-      coupons.push(datapoint[2]);
-    });
-    console.log(miles_flown);
-    console.log(itin_fares);
-    coupons.forEach(item =>{
-      switch(item) {
-        case item == 1 || 2:
-          colors.push('#1f77b4')
+      switch(datapoint[2]) {
+        case 1:
+        case 2:
+          miles_flown_1.push(datapoint[1]);
+          itin_fares_1.push(datapoint[3]);
+          coupons_1.push(datapoint[2]);
           break;
-        case item == 3 || 4 :
-          colors.push('#ff7f0e')
+        case 3:
+        case 4:
+          miles_flown_2.push(datapoint[1]);
+          itin_fares_2.push(datapoint[3]);
+          coupons_2.push(datapoint[2]);
           break;
-        case item == 5 || 6 :
-          colors.push('#9467bd')
+        case 5:
+        case 6:
+          miles_flown_3.push(datapoint[1]);
+          itin_fares_3.push(datapoint[3]);
+          coupons_3.push(datapoint[2]);
           break;
         default:
-          colors.push('#d62728')
+          miles_flown_4.push(datapoint[1]);
+          itin_fares_4.push(datapoint[3]);
+          coupons_4.push(datapoint[2]);
       }
+      
+      //miles_flown.push(datapoint[1]);
+      //itin_fares.push(datapoint[3]);
+      //coupons.push(datapoint[2]);
     });
-    console.log(colors)
+    console.log(miles_flown_4);
+    console.log(coupons_4);
+    //console.log(miles_flown);
+    //console.log(itin_fares);
+    // //coupons.forEach(item =>{
+    //   switch(item) {
+    //     case item == 1 || 2:
+    //       colors.push('#1f77b4')
+    //       break;
+    //     case item == 3 || 4 :
+    //       colors.push('#ff7f0e')
+    //       break;
+    //     case item == 5 || 6 :
+    //       colors.push('#9467bd')
+    //       break;
+    //     default:
+    //       colors.push('#d62728')
+    //   }
+    // });
 
-    var scatter_plot_data = [{
-      x: miles_flown.slice(0,999),
-      y: itin_fares.slice(0,999),
+
+    var direct_flights = {
+      x: miles_flown_1.slice(0,250),
+      y: itin_fares_1.slice(0,250),
       mode: 'markers',
       marker: {
         size: 5,
-        color: colors
+        color: '#1f77b4'
       },
+      name: "2 Coupons (Direct Flight)",
       type: 'scatter'
-    }];
+    };
+
+    var four_flights = {
+      x: miles_flown_2.slice(0,250),
+      y: itin_fares_2.slice(0,250),
+      mode: 'markers',
+      marker: {
+        size: 5,
+        color: '#ff7f0e'
+      },
+      name: "3-4 Coupons",
+      type: 'scatter'
+    };
+
+    var six_flights = {
+      x: miles_flown_3.slice(0,250),
+      y: itin_fares_3.slice(0,250),
+      mode: 'markers',
+      marker: {
+        size: 5,
+        color: '#9467bd'
+      },
+      name: "5-6 Coupons",
+      type: 'scatter'
+    };
+
+    var lots_of_flights = {
+      x: miles_flown_4.slice(0,250),
+      y: itin_fares_4.slice(0,250),
+      mode: 'markers',
+      marker: {
+        size: 5,
+        color: '#d62728'
+      },
+      name: "7+ Coupons",
+      type: 'scatter'
+    };
+
+    var data = [direct_flights, four_flights, six_flights, lots_of_flights];
   
     var scatter_layout = {
       title: 'Itinerary Fare for Airline',
@@ -103,12 +178,12 @@ function makePlots(selected_airline) {
       yaxis: {
         title: 'Price'
       },
-      showlegend: false,
+      showlegend: true,
       height: 500,
       width: 1200,
     };
   
-    Plotly.newPlot("scatter", scatter_plot_data, scatter_layout);
+    Plotly.newPlot("scatter", data, scatter_layout);
   });
 };  
 
